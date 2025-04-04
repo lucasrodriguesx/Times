@@ -1,6 +1,6 @@
 import React from 'react';
-import { View, Image, FlatList, StyleSheet } from 'react-native';
-import { Card, Title, Paragraph } from 'react-native-paper';
+import {  Image, FlatList, StyleSheet } from 'react-native';
+import { Card, Title } from 'react-native-paper';
 import Jogador from './Jogador';
 
 const Time = ({ nome, anoFundacao, mascote, imagem, jogadores }) => {
